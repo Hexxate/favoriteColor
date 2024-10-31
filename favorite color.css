@@ -1,0 +1,51 @@
+/***normal elements***/
+body {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(186, 190, 245) 0%,
+    rgb(192, 192, 245) 33.1%,
+    rgb(218, 203, 246) 90%
+  );
+  text-align: center;
+}
+
+img {
+  width: 50%;
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  color: #9f86c0;
+}
+
+hr {
+  width: 50%;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+  border-top: 1px solid #9f86c0;
+}
+
+a {
+  color: #9f86c0;
+}
+
+strong {
+  color: white;
+}
+
+p {
+  padding: 0px 20px;
+}
+/***classes***/
+.container {
+  display: block;
+  background: rgba(255, 255, 255, 0.3);
+  border: 2px solid white;
+  border-radius: 20px;
+  width: 55%;
+  margin: 0 auto;
+}
